@@ -3,5 +3,6 @@ a=1
 b=2
 division=`echo $a $b | awk '{print $1/$2}'`
 multiplication=$(( a*b ))
+power=$((a**b))
 echo $division
 echo $multiplication
